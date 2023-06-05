@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    tools:context=".MainActivity"
+    android:background="@color/black">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/magnetico"
+        android:layout_marginTop="60dp"
+        android:layout_marginStart="84dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="MagSense"
+        android:textSize="32dp"
+        android:layout_marginTop="270dp"
+        android:layout_marginStart="114dp"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/magnetometroButton"
+        android:background="@drawable/background_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="330dp"
+        android:layout_marginEnd="40dp"
+        android:layout_marginBottom="40dp"
+        android:padding="15dp"
+        android:text="Magnetometro"
+        tools:ignore="MissingConstraints" />
+
+
+</RelativeLayout>
